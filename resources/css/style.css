@@ -72,10 +72,12 @@ header {
     transform: translate(-50%, -50%); */
 }
 
-.logo-box,
+.logo-box {
+    
+}
 .logo {
     height: 80px;
     width: auto;
     float: left;
-    margin: 20px
+    margin-top: 20px
 }
