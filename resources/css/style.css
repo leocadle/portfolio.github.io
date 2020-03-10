@@ -57,6 +57,7 @@ nav {
 }
 
 .big-text-box {
+    float: right;
     /* position: absolute;
     width: 1140px;
     top: 50%;
