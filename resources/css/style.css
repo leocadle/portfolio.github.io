@@ -30,6 +30,15 @@ h3 {
     text-transform: uppercase;
 }
 
+h1 {
+    color: #fff;
+    font-size: 240%;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+}
+
 /*-------------------------------*/
 /* HEADER */
 /*-------------------------------*/
