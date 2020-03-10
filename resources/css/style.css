@@ -61,10 +61,6 @@ header {
     height: 100vh;
 }
 
-nav {
-    display: inline-block;
-}
-
 .italic-box {
     float: right;
     margin-top: 20px;
@@ -76,9 +72,10 @@ nav {
     transform: translate(-50%, -50%); */
 }
 
+.logo-box,
 .logo {
     height: 80px;
     width: auto;
     float: left;
-    margin: 20px 0 0 30%;
+    margin: 20px
 }
