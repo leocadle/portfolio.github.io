@@ -53,7 +53,7 @@ header {
 }
 
 .big-text-box {
-    float: left;
+    float: right;
     /* position: absolute;
     width: 1140px;
     top: 50%;
