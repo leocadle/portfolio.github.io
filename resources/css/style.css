@@ -62,7 +62,9 @@ header {
 }
 
 .italic-box {
-    float: right;
+    font-family: 'Cinzel', 'Ariel', sans-serif;
+    font-weight: 300;
+    font-size: 150%;
     margin-top: 20px;
     /* position: absolute;
     width: 1140px;
