@@ -53,8 +53,8 @@ h1 {
 /*-------------------------------*/
 
 header {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.35)), to(rgba(0, 0, 0, 0.35))), url(../img/background.jpg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url(../img/background.jpg);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.4))), url(../img/background.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url(../img/background.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -68,6 +68,7 @@ header {
     text-align: left;
     width: auto;
     margin-top: 100px;
+    margin-left: 0;
     /* position: absolute;
     width: 1140px;
     top: 50%;
@@ -77,14 +78,22 @@ header {
 }
 
 .logo-box {
-    width: 40%;
+    width: 38%;
     margin-top: 100px;
+    margin-right: 0;
 }
 
 .logo {
     height: 50px;
     width: auto;
     float: right;
-    margin-right: 10px;
+    margin-right: 20px;
     margin-top: 7px;
+}
+
+.subject-text {
+    font-weight: 100;
+    color: #fff;
+    text-align: center;
+    margin-top: 50px;
 }
