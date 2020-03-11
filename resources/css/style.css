@@ -16,7 +16,7 @@
 
 html,
 body {
-    background-color: #fff;
+    background-color: #333;
     color: #555;
     font-family: 'Titillium Web', 'Ariel', sans-serif;
     font-size: 20px;
@@ -53,8 +53,8 @@ h1 {
 /*-------------------------------*/
 
 header {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.4))), url(../img/background.jpg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url(../img/background.jpg);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.2))), url(../img/background.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)), url(../img/background.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -96,4 +96,16 @@ header {
     color: #fff;
     text-align: center;
     margin-top: 50px;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+}
+
+footer {
+    padding: 50px;
+    font-size: 80%;
+}
+
+.footer-nav {
+    float: left;
+    list-style: none;
 }
