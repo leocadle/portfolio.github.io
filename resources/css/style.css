@@ -67,6 +67,7 @@ header {
     font-size: 250%;
     margin-top: 20px;
     color: #fff;
+    text-align: left;
     /* position: absolute;
     width: 1140px;
     top: 50%;
@@ -78,5 +79,6 @@ header {
 .logo {
     height: 70px;
     width: auto;
-    margin-top: 20px
+    margin-top: 20px;
+    float: right;
 }
