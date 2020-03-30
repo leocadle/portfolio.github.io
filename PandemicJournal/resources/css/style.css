@@ -48,6 +48,18 @@ h1 {
     letter-spacing: 1px;
 }
 
+h2 {
+    font-size: 180%;
+    word-spacing: 2px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+h3 {
+    font-size: 110%;
+    margin-bottom: 15px;
+}
+
 /*-------------------------------*/
 /* HEADER */
 /*-------------------------------*/
