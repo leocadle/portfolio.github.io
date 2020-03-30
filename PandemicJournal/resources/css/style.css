@@ -79,6 +79,12 @@ header {
     letter-spacing: 1px;
 }
 
+img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
 footer {
     padding: 50px;
     font-size: 80%;
