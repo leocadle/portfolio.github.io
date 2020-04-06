@@ -1,3 +1,27 @@
+/*-------------------------------*/
+/* BASIC SETUP                   */
+/*-------------------------------*/
+
+/* COLORS                        */
+
+/* 
+
+DARK
+#333
+
+#3D3B3E
+#4D3857
+#87838A
+
+LIGHT
+
+#FFF
+#7A5A8A
+#FFF
+
+*/
+CORONAVIRUS
+
 * {
     margin: 0;
     padding: 0;
@@ -16,21 +40,23 @@
 
 html,
 body {
-    background-color: #333;
-    color: #555;
-    font-family: 'Titillium Web', 'Ariel', sans-serif;
+    background-color: #3D3B3E;
+    color: #FFF;
+    font-family: 'Spartan', 'Ariel', sans-serif;
     font-size: 20px;
-    font-weight: 300;
+    font-weight: 100;
     text-rendering: optimizeLegibility;
     overflow-x: hidden;
 }
+
+/*-------------------------------*/
+/* REUSABLE COMPONENTS           */
+/*-------------------------------*/
 
 .row {
     max-width: 1140px;
     margin: 0 auto;
 }
-
-section { padding: 80px 0px; }
 
 h1,
 h2,
@@ -40,62 +66,169 @@ h3 {
 }
 
 h1 {
-    color: #fff;
-    font-size: 240%;
-    margin-top: 0px;
-    margin-bottom: 20px;
-    word-spacing: 4px;
-    letter-spacing: 1px;
+    font-size: 200%;
 }
 
 h2 {
     font-size: 180%;
     word-spacing: 2px;
-    text-align: center;
     letter-spacing: 1px;
 }
 
 h3 {
     font-size: 110%;
-    margin-bottom: 15px;
+}
+
+/* ------ LINKS ---------- */
+
+a:link,
+a:visited {
+    text-decoration: none;
+    color: #333;
+    padding-bottom: 1px;
+    -webkit-transition: border-top 0.2s, color 0.2s;
+    transition: border-top 0.2s, color 0.2s;
+}
+
+a:hover,
+a:active {
+    color: #555;
+    border-top: 1px solid transparent;
 }
 
 /*-------------------------------*/
-/* HEADER */
+/* HEADER                        */
 /*-------------------------------*/
 
-header {
-    
-}
-
-.logo-box {
-    width: 38%;
-    margin-top: 100px;
-    margin-right: 0;
+.hero-box {
+    width: 75%;
+    margin-bottom: 30px;
+    vertical-align: middle;
 }
 
 .logo {
-    height: 50px;
-    width: auto;
-    float: right;
-    margin-right: 20px;
-    margin-top: 7px;
+    height: 100px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 50px;
 }
 
-.subject-text {
+.hero-text {
+    font-family: 'Orbitron';
     font-weight: 100;
-    color: #fff;
+    line-height: 75px;
+    word-spacing: 10px;
+    letter-spacing: 5px;
     text-align: center;
-    margin-top: 50px;
-    word-spacing: 4px;
-    letter-spacing: 1px;
 }
 
-img {
-    width: 20%;
-    height: auto;
-    margin-bottom: 15px;
+.main-nav {
+    float: right;
+    list-style: none;
+    margin-top: 30px;
 }
+
+.main-nav li {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    padding: 8px 0;
+    color: #FFF;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    border-top: 2px solid transparent;
+    -webkit-transition: border-top 0.2s;
+    transition: border-top 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active { border-top: 2px solid #7A5A8A; }
+
+.bcol1 {
+    width: 15%;
+    margin: 0;
+    padding: 0;
+}
+
+.bPosts {
+    width: 70%;
+    margin: 0;
+    padding: 0;
+}
+
+.bcol3 {
+    width: 15%;
+    margin: 0;
+    padding: 0;
+}
+
+.blogPost {
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #7A5A8A;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.bg-1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../../Day1/img/no-toilet-paper.jpg);
+}
+
+.bg-2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../../Day2/img/pain.jpeg);
+}
+
+.bg-3 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../../Day3/img/bakedbeans.jpg);
+}
+
+.bg-4 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../../Day4/img/toilet.jpeg);
+}
+
+bpInfo {
+    width: 40%;
+    font-size: 110%;
+    margin-left: 10px;
+    text-align: left;
+    padding: 10px;
+    border: 1px solid;
+}
+
+bpContent {
+    width: 60%;
+    font-size: 100%;
+    font-family: 'Rokkitt', 'Ariel', sans-serif;
+    font-weight: 400;
+    text-align: left;
+    border: 1px solid;
+}
+
+.icon-small {
+    display: inline-block;
+    width: 25px;
+    text-align: center;
+    color: #FFF;
+    font-size: 100%;
+    margin-left: 10px;
+    
+    /* icon and text alignment */
+    line-height: 100%;
+    vertical-align: middle;
+    margin-top: 0px;
+}
+
+/*-------------------------------*/
+/* FOOTER                        */
+/*-------------------------------*/
 
 footer {
     padding: 50px;
@@ -127,13 +260,13 @@ footer {
 .social-links li a:visited {
     text-decoration: none;
     border: 0;
-    color: #aaa;
+    color: #333;
     -webkit-transition: color 0.2s;
     transition: color 0.2s;
 }
 
 .footer-nav li a:hover,
-.footer-nav li a:active { color: #ddd; }
+.footer-nav li a:active { color: #333; }
 
 .social-links li a:link,
 .sicial-links li a:visited { font-size: 160%; }
@@ -152,7 +285,7 @@ footer {
 .ion-social-instagram:hover { color: #e95950; }
 
 footer p {
-    color: #888;
+    color: #8a8a8a;
     text-align: center;
     margin-top: 20px;
 }
