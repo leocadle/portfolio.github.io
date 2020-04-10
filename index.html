@@ -35,6 +35,11 @@
             <h2 class="subject-text">A selection of Web Projects by Leo Cadle</h2>
         </div>
     </header>
+    <section>
+        <div id="capture" style="padding: 10px; background: #f5da55">
+            <h4 style="color: #000; ">Hello world!</h4>
+        </div>
+    </section>
     <footer>
         <div class="row sticky">
             <div class="col span-1-of-2">
@@ -59,6 +64,12 @@
             </p>
         </div>
     </footer>
+    <script src="vendors/js/html2canvas.min.js"></script>
+    <script>
+        html2canvas(document.querySelector("#capture")).then(canvas => {
+            document.body.appendChild(canvas)
+        });
+    </script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-160844684-1"></script>
     <script>
