@@ -25,7 +25,7 @@ body {
     overflow-x: hidden;
 }
 
-.hero subject {
+.row {
     max-width: 1140px;
     margin: 0 auto;
 }
@@ -170,7 +170,7 @@ footer p {
     z-index: 9999; */
 }
 
-.row {
+.image-row {
   display: flex;
   flex-wrap: wrap;
   padding: 0 4px;
