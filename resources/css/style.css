@@ -55,14 +55,14 @@ a:visited {
     text-decoration: none;
     color: whitesmoke;
     padding-bottom: 1px;
-    border-bottom: 1px solid sandybrown;
+    border-bottom: 1px solid gold;
     -webkit-transition: border-bottom 0.2s, color 0.2s;
     transition: border-bottom 0.2s, color 0.2s;
 }
 
 a:hover,
 a:active {
-    color: sandybrown;
+    color: gold;
     border-bottom: 1px solid transparent;
 }
 
