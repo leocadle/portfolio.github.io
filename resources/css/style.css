@@ -48,6 +48,24 @@ h1 {
     letter-spacing: 1px;
 }
 
+/* ------ LINKS ---------- */
+
+a:link,
+a:visited {
+    text-decoration: none;
+    color: black;
+    padding-bottom: 1px;
+    border-bottom: 1px solid darkturquoise;
+    -webkit-transition: border-bottom 0.2s, color 0.2s;
+    transition: border-bottom 0.2s, color 0.2s;
+}
+
+a:hover,
+a:active {
+    color: darkturquoise;
+    border-bottom: 1px solid transparent;
+}
+
 /*-------------------------------*/
 /* HEADER */
 /*-------------------------------*/
