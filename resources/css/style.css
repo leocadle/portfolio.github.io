@@ -131,6 +131,14 @@ header {
     letter-spacing: 1px;
 }
 
+.section-heading {
+    font-weight: 100;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+}
+
 footer {
     padding: 50px;
     font-size: 80%;
