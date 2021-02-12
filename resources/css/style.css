@@ -204,6 +204,7 @@ footer p {
 .column img {
   margin-top: 8px;
     margin-bottom: 10px;
+    border: solid 1px whitesmoke;
   vertical-align: middle;
   width: 100%;
 }
