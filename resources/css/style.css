@@ -54,14 +54,13 @@ a:link,
 a:visited {
     text-decoration: none;
     color: whitesmoke;
-    padding-bottom: 1px;
     border-bottom: 1px solid gold;
     -webkit-transition: color 0.2s;
     transition: color 0.2s;
 }
 
-h3a:hover,
-h3a:active {
+a:hover,
+a:active {
     color: gold;
 }
 h3a:link,
