@@ -53,16 +53,16 @@ h1 {
 a:link,
 a:visited {
     text-decoration: none;
-    color: black;
+    color: ghostwhite;
     padding-bottom: 1px;
-    border-bottom: 1px solid darkturquoise;
+    border-bottom: 1px solid darkorange;
     -webkit-transition: border-bottom 0.2s, color 0.2s;
     transition: border-bottom 0.2s, color 0.2s;
 }
 
 a:hover,
 a:active {
-    color: darkturquoise;
+    color: darkorange;
     border-bottom: 1px solid transparent;
 }
 
